@@ -39,9 +39,4 @@ public class AboutActivity extends AppCompatActivity {
             }
         });
     }
-
-    @Override
-    public boolean onTouchEvent(MotionEvent event) {
-        return false;
-    }
 }
