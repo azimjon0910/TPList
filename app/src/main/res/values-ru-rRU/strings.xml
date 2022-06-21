@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Список транспондеров</string>
+    <string name="add_satellite">Добавить спутник</string>
+    <string name="add_tp">Добавить транспондер</string>
+    <string name="exit">Выход</string>
+    <string name="name">Название</string>
+    <string name="subtext">Подтекст</string>
+    <string name="transponder">Транспондер</string>
+    <string name="channels">Каналы</string>
+    <string name="cancel">Отмена</string>
+    <string name="btn_save_text">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="flashlight">Фонарик</string>
+    <string name="can_not_turnOn_flashlight">Не удалось включить фонарик</string>
+    <string name="error_insertDB">Ошибка внесение/обновление данных в БД.</string>
+    <string name="error_updateDB">Ошибка обновления спутника в БД.</string>
+    <string name="sat_exists">Этот спутник уже существует.</string>
+    <string name="tp_exists">Этот транспондер уже существует.</string>
+    <string name="delete_ask">Вы уверены, что хотите удалить?</string>
+    <string name="no">Нет</string>
+    <string name="no_channels">Нет каналов</string>
+    <string name="satellites">спутники</string>
+    <string name="transponders">транспондеры</string>
+    <string name="enter_tp">Введите транспондер</string>
+    <string name="enter_satName">Введите название спутника</string>
+    <string name="freq1"><small><small><small>Частота 1</small></small></small></string>
+    <string name="freq2"><small><small><small>Частота 2</small></small></small></string>
+    <string name="about_app">О программе</string>
+    <string name="version">Версия</string>
+    <string name="app_info">Приложение создано для монтажников спутниковых антенн. В приложении можно добавлять спутники. И для каждого спутника отдельно можно добавить транспондерные частоты с телеканалами (радиоканалами). Если у Вас есть предложения или жалобы, можете связаться с разработчиком по электронной почте.</string>
+    <string name="developer">Разработчик: </string>
+    <string name="mail">Эл. почта:</string>
+    <string name="developer_name">Азизов Азимджон</string>
+    <string name="WhatToUse">Что использовать?</string>
+</resources>

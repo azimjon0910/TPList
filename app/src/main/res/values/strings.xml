@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TP List</string>
+    <string name="app_name1" translatable="false">Список транспондеров</string>
+    <string name="developer">Developer:</string>
+    <string name="mail">Email:</string>
+    <string name="developer_name">Azizov Azimjon</string>
+    <string name="developer_mail" translatable="false"><u>azimjon0910@gmail.com</u></string>
+    <string name="app_info">The app was created for satellite dish installers. You can add satellites in the app. And for each satellite separately, you can add transponder frequencies with TV channels (radio channels). If you have any suggestions or complaints, you can contact the developer by email.</string>
+    <string name="about_app">About</string>
+    <string name="version">Version</string>
+
+    <string name="name">Name</string>
+    <string name="flashlight">FlashLight</string>
+    <string name="add_satellite">Add satellite</string>
+    <string name="add_tp">Add transponder</string>
+    <string name="satellites">satellites</string>
+    <string name="subtext">Subtext</string>
+    <string name="transponder">Transponder</string>
+    <string name="transponders">transponders</string>
+    <string name="freq1"><small><small><small>Frequency 1</small></small></small></string>
+    <string name="freq2"><small><small><small>Frequency 2</small></small></small></string>
+    <string name="polarization_H" translatable="false">" H "</string>
+    <string name="polarization_V" translatable="false">" V "</string>
+    <string name="channels">Channels</string>
+    <string name="no_channels">No channels</string>
+
+    <string name="edit">Edit</string>
+    <string name="btn_save_text">Save</string>
+    <string name="delete">Delete</string>
+    <string name="delete_ask">Are you sure you want to delete?</string>
+    <string name="cancel">Cancel</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+
+    <string name="enter_tp">Enter transponder</string>
+    <string name="enter_satName">Enter the name of satellite</string>
+    <string name="sat_exists">The satellite is already exists.</string>
+    <string name="tp_exists">The transponder is already exists.</string>
+    <string name="can_not_turnOn_flashlight">Can not turn on flashlight</string>
+    <string name="wrong_extra_key" translatable="false">Wrong extra key!</string>
+    <string name="error_insertDB">Error inserting/updating satellite to DB.</string>
+    <string name="error_updateDB">Error updating satellite to DB.</string>
+
+    <string name="WhatToUse">What to use?</string>
+
+    <string name="intent_extra_key_title" translatable="false">title</string>
+    <string name="intent_extra_key_result_satName" translatable="false">satName</string>
+    <string name="intent_extra_key_result_satInfo" translatable="false">satInfo</string>
+    <string name="intent_extra_key_satName" translatable="false">satName</string>
+    <string name="intent_extra_key_satOldName" translatable="false">satOldName</string>
+    <string name="intent_extra_key_satId" translatable="false">satId</string>
+    <string name="intent_extra_key_oldChannels" translatable="false">oldChannels</string>
+    <string name="intent_extra_key_oldTP" translatable="false">oldTP</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:mode="twoLine"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight">
+
+    <TextView
+        android:id="@id/tv_satellite_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:text="Main text"/>
+
+    <TextView
+        android:id="@id/tv_satellite_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_satellite_name"
+        android:layout_alignStart="@id/tv_satellite_name"
+        android:layout_alignLeft="@id/tv_satellite_name"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:text="Subtext"/>
+
+</TwoLineListItem>

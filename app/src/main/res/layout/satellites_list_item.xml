@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+    android:paddingBottom="13dp"
+    android:orientation="horizontal" >
+
+    <TwoLineListItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/listPreferredItemHeight"
+        android:mode="twoLine"
+        android:layout_weight="20">
+
+        <TextView
+            android:id="@+id/tv_satellite_name"
+            style="@style/SatelliteListItemTextStyle"
+            android:layout_marginTop="8dp"
+            android:text="Main text"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_satellite_info"
+            style="@style/SatelliteListItemTextStyle"
+            android:layout_below="@id/tv_satellite_name"
+            android:layout_alignStart="@id/tv_satellite_name"
+            android:layout_alignLeft="@id/tv_satellite_name"
+            android:text="subtext" />
+    </TwoLineListItem>
+
+    <ImageView
+        android:id="@+id/ic_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_check_1"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="satListBackColor">#33050519</color>
+    <color name="colorBlueTransparent">#4D0000FF</color>
+    <color name="colorGray">#808080</color>
+    <color name="colorLightGray">#D3D3D3</color>
+
+    <color name="colorBtnCancel">#1AFF0000</color>
+    <color name="colorBtnCancelPressed">#33FF0000</color>
+    <color name="colorBtnCancelFocused">#26FF0000</color>
+    <color name="colorBtnSave">#1A00FF00</color>
+    <color name="colorBtnSavePressed">#3300FF00</color>
+    <color name="colorBtnSaveFocused">#2600FF00</color>
+    <color name="channels_list_backColor">#E6DCFFFF</color>
+</resources>
